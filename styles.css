@@ -1,0 +1,127 @@
+body {
+  margin: auto;
+  padding: auto;
+}
+
+.cv-document {
+  box-sizing: border-box;
+  border: none;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  margin: auto;
+  padding: auto;
+  width: 100%;
+  font-family: arial, sans-serif, tahoma;
+  font-size: 10pt;
+}
+
+.cv-page {
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
+  width: 900px;
+  min-height: 900px;
+  margin: auto;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+}
+
+.section {
+  background-color: #fff;
+  padding: auto;
+}
+
+.section-content {
+  font-size: 20px;
+  margin: 20px;
+}
+
+.section-title {
+  font-size: 26px;
+  font-family: sans-serif;
+  list-style: square;
+  text-transform: inherit;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin: 20px;
+}
+
+#info {
+  outline: 0;
+}
+
+#target {
+  background-color: white;
+  color: black;
+}
+
+.strong {
+  font-weight: bolder;
+}
+
+#h1 {
+  color: #0e2452;
+  font-size: 30px;
+  padding-top: 50px;
+}
+
+p {
+  font-size: 20px;
+}
+
+/* The actual timeline (the vertical ruler) */
+
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  /* background-color: black; */
+  top: 0;
+  bottom: 0;
+  left: 14.5%;
+  height: 220px;
+  margin-left: -3px;
+  border: 1px dashed black;
+}
+/* The actual timeline (the vertical ruler) */
+
+.timeline1::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  /* background-color: black; */
+  top: 0;
+  bottom: 0;
+  left: 39px;
+  right: 0%;
+  height: 330px;
+  margin-left: -3px;
+  border: 1px dashed black;
+}
+/* The actual timeline (the vertical ruler) */
+
+.timeline2::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  /* background-color: black; */
+  top: 0;
+  bottom: 0;
+  left: 39px;
+  height: 180px;
+  margin-left: -3px;
+  border: 1px dashed black;
+}
+
+.line {
+  border: 1px solid rgb(235, 227, 227);
+}
+#hr {
+  border: 2px solid black;
+}
