@@ -1,18 +1,14 @@
-* {
-  margin: 0;
-}
-
 .section-title {
   font-size: 28px;
 }
-section > .container {
+/* section > .container {
   display: block;
-  /*margin: auto;*/
-  /*padding: 50px 0px 50px;*/
+  margin: auto;
+  padding: 50px 0px 50px;
   line-height: 1.5;
   width: 100%;
-  /* margin-left: 25px;*/
-}
+   margin-left: 25px;
+} */
 
 /*BANNER*/
 #banner {
@@ -50,7 +46,7 @@ section > .container {
   text-align: center;
   background-color: white;
   /* overflow: hidden; */
-  /* margin-left: 7.5em;*/
+  /* margin-left: 10.5em; */
 }
 #nav-bar a {
   float: left;
@@ -246,7 +242,7 @@ section > .container {
 
 /*PROJECT*/
 #project {
-  margin-left: 5%;
+  /* margin-left: 5%; */
   margin-top: 10%;
 }
 .col-project {
@@ -287,10 +283,11 @@ section > .container {
   height: 50px;
   margin-top: 0%;
 }
+
 .col-footer {
   display: grid;
-  grid-template-columns: 24% 23% 23%;
+  grid-template-columns: 26% 26% 26%;
   text-align: center;
-  margin-left: 7em;
+  margin-left: 19%;
   font-size: 20px;
 }
