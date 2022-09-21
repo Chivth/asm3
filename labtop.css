@@ -1,4 +1,4 @@
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 993px) {
   body {
     display: block;
     margin-left: auto;
@@ -12,19 +12,11 @@
     text-align: center;
     background-color: white;
     /* overflow: hidden; */
-    /* margin-left: 9em; */
-  }
-  section > .container {
-    display: block;
-    margin: auto;
-    padding: 0px 0px 0px 15em;
-    line-height: 1.5;
-    width: 100%;
-    /* margin-left: 25px; */
+    margin-left: 10.5em;
   }
   #about {
     line-height: 1.5;
-    height: 39em;
+    height: 33em;
     font-size: 14px;
     background-color: #f7f7f7;
     padding-top: 18%;
@@ -34,16 +26,16 @@
     padding-top: 1%;
     margin-top: 3.5%;
     margin-bottom: -10%;
-    height: 30em;
+    height: 28em;
   }
   #job-info {
     font-size: 18px;
-    padding-top: 10%;
+    /* padding-top: 10%; */
   }
-  #project {
-    margin-left: -10em;
+  /* #project {
+     margin-left: -10em; 
     margin-top: 20%;
-  }
+  } */
   .col-certificate-1 {
     display: grid;
     grid-template-columns: 27% 73%;
